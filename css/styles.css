@@ -78,6 +78,10 @@ div a {
     color: #fff;
 }
 
+div h4 a {
+    color: #000;    
+}
+
 .dimensiones {
     width: 75px;
     height: 75px;
