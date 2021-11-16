@@ -7,21 +7,56 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   
   <title>Frontend Mentor | Space tourism website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="./js/functions.js"></script>
+  <link type="text/css" rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
-
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
-
-  So, you want to travel to
-  Space
-  Let’s face it; if you want to go to space, you might as well genuinely go to 
-  outer space and not hover kind of on the edge of it. Well sit back, and relax 
-  because we’ll give you a truly out of this world experience!
-
-  Explore
-
+<body class="bg-image" style="background-image: url('./assets/home/background-home-desktop.jpg'); height: 100vh;">
+  <div class="container d-flex flex-column">
+    <!-- NAV BAR -->
+    <div class="row mb-5">
+      <div class="col-2 mt-5">
+        <img src="./assets/shared/logo.svg" alt="logo">
+      </div>
+      <div class="col-10 mt-5 d-flex justify-content-end align-items-center" 
+        style="background-image: url('./assets/home/Rectangle.png');">
+        <ul class="nav" id="nav-bar">
+          <li class="nav-item active"> 
+            <a href="./index.html"> 00 Home </a>
+          </li>
+          <li class="nav-item"> 
+            <a href="./destinations/destination-moon.html"> 01 Destination </a> 
+          </li>
+          <li class="nav-item"> 
+            <a href="./crew-members/crew-commander.html"> 02 Crew </a>  
+          </li>
+          <li class="nav-item"> 
+            <a href="./technologies/technology-vehicle.html"> 03 Technology </a>  
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row mt-5 d-flex align-items-center">
+      <!-- MAIN TEXT -->
+      <div class="col">
+        <div class="text-format">
+          <h5>SO, YOU WANT TO TRAVEL TO</h5>
+          <h1>SPACE</h1>
+          <p>Let’s face it; if you want to go to space, you might as well genuinely go to 
+            outer space and not hover kind of on the edge of it. Well sit back, and relax 
+            because we’ll give you a truly out of this world experience!</p>
+        </div>
+      </div>
+      <!-- EXPLORE BUTTON -->
+      <div class="col d-flex justify-content-end">
+        <div class="card border border-1 rounded-circle">
+          <img src="./assets/home/Oval Copy.png" alt="oval">
+          <div class="card-img-overlay d-flex justify-content-center align-items-center">
+            <h4> <a href="./destinations/destination-moon.html"> EXPLORE </a> </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
