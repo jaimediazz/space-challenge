@@ -71,7 +71,11 @@ h4 a:hover {
     width: 50%;
     float: left;
     padding: 20px;
-}  
+} 
+
+.hijo {
+    float: left;
+}
 
 div a {
     text-decoration: none;
@@ -87,10 +91,19 @@ div h4 a {
     height: 75px;
 }
 
+.dimensiones-crew {
+    width: 15px;
+    height: 15px;
+}
+
 .active-circular {
     background-color: #fff;
 }
 
 .active-circular a {
     color: #000;
+}
+
+.non-active {
+    background-color: #D0D6F9;
 }
