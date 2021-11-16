@@ -75,4 +75,18 @@ h4 a:hover {
 
 div a {
     text-decoration: none;
+    color: #fff;
+}
+
+.dimensiones {
+    width: 75px;
+    height: 75px;
+}
+
+.active-circular {
+    background-color: #fff;
+}
+
+.active-circular a {
+    color: #000;
 }
